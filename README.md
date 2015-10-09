@@ -4,6 +4,7 @@ The best way to run it is to load it with sbcl, making sure you have the appropr
 
 Next update will include a port to Haskell, better astrometry data, relativistic effects, and much more.
 
+Approaching Earth's orbit:
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/2.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/3.png "")
@@ -11,17 +12,29 @@ Next update will include a port to Haskell, better astrometry data, relativistic
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/5.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/6.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/7.png "")
+
+Mercury and Venus:
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/a7.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/b1.png "")
+
+Ten seconds of the moon's motion:
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/c1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/c2.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/c3.png "")
+
+Europe and North Africa:
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/c4.png "")
+
+Mars:
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/d1.png "")
+
+The outer planets:
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/e1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/e2.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/f1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/g1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/h1.png "")
+
+Scale comparison of the outer and inner solar systems. Note the distances in units of light-time:
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/i1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/i2.png "")
