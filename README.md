@@ -1,4 +1,8 @@
-This is an interactive orrery/planetarium program, currently in an alpha state. Next update will include a port to Haskell and much better astrometry data.
+This is an interactive orrery/planetarium program, currently in an alpha state. 
+
+The best way to run it is to load it with sbcl. Controls are WASD+mousewheel. Hold shift and ctrl for more or less sensitive inputs.
+
+Next update will include a port to Haskell and much better astrometry data.
 
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/2.png "")
@@ -7,12 +11,6 @@ This is an interactive orrery/planetarium program, currently in an alpha state. 
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/5.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/6.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/7.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/a1.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/a2.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/a3.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/a4.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/a5.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/a6.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/a7.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/b1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/c1.png "")
@@ -26,4 +24,4 @@ This is an interactive orrery/planetarium program, currently in an alpha state. 
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/g1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/h1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/i1.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/i1.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/i2.png "")
