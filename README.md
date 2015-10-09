@@ -1,0 +1,1 @@
+This is an interactive orrery/planetarium program, currently in an alpha state. Next update will include a port to Haskell and much better astrometry data.
