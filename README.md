@@ -1,4 +1,4 @@
-This is an interactive orrery/planetarium program, currently in an alpha state. 
+This is an interactive orrery/planetarium program which uses images and astrometry data harvested from NASA and simulated physics, currently in an alpha state. 
 
 The best way to run it is to load it with sbcl. Controls are WASD+mousewheel. Hold shift and ctrl for more or less sensitive inputs.
 
