@@ -1,8 +1,8 @@
-This is an interactive orrery/planetarium program which uses images and astrometry data harvested from NASA and simulated physics. Currently in an alpha state. 
+This is an interactive orrery/planetarium program which uses images and astrometry data harvested from NASA and realistic simulated physics. Currently in an alpha state. 
 
 The best way to run it is to load it with sbcl, making sure you have the appropriate freeglut dlls in the proper places. This has been tested on GNU/Linux but is certain to be buggy on other platforms. Controls are WASD+mousewheel. Hold shift and ctrl for more or less sensitive inputs.
 
-Next update will include a port to Haskell, much better astrometry data, relativistic effects, and much more.
+Next update will include a port to Haskell, better astrometry data, relativistic effects, and much more.
 
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/2.png "")
