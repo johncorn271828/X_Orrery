@@ -108,8 +108,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
   (princln "exiting normally."))
 
-;;;This should work with other Common Lisp compilers/interpreters, if needed.
-;;(main)
+;;Run without saving an executable file.
+(main) (exit)
 
-;;;This command instructs the sbcl compiler to write an executable.
-(sb-ext:save-lisp-and-die "X_Orrery.bin" :executable t :toplevel 'main)
+;;;This command instructs the sbcl compiler to write an executable. Problematic in windows.
+;;(sb-ext:save-lisp-and-die "X_Orrery.bin" :executable t :toplevel 'main)

@@ -212,7 +212,7 @@ This is the top-level file for the state logic, ie non-IO code.
 						       (t
 							(+ old-theta delta-theta))))
 					:v (cond ((assoc #\b (key-down-time-table controller))
-						  100)
+						  250)
 						 ((member 'control-wheel-up (mouse-events controller))
 						  (+ (v (player old-state))
 						     (* 0.00001 (- c (v (player old-state))))))

@@ -59,6 +59,7 @@ to better explain what some of this code does without lots more research (to be 
   (gl:disable :dither)
   (gl:shade-model :smooth) ;previously :flat
   (gl:light-model :light-model-ambient #(0.1 0.1 0.1 1))  ;;turns ambient light down low
+  ;;(gl:light-model :light-model-two-side 1)
   (gl:depth-range 0 1)
   (gl:enable :light0 :lighting :cull-face :depth-test)  ;;can only have 8 of these
 
