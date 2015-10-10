@@ -30,7 +30,6 @@ Mars:
 
 The outer planets:
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/e1.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/e2.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/f1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/g1.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/h1.png "")

@@ -98,6 +98,7 @@ for each renderable (or something like that).
 	       (gl:material :front :shininess 128)
 	       (gl:enable :texture-2d)
 	       (gl:bind-texture :texture-2d (nth 6 (textures *view*)))
+	       (gl:rotate 90 0 0 1)
 	       (gl:call-list (+ 6 (draw-list *view*)))
 	       (gl:bind-texture :texture-2d 0)))
 	    ((and (typep rb 'celestial-body) (equal (name rb) "Saturn"))
