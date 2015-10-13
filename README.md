@@ -5,29 +5,18 @@ The best way to run it is to load it with sbcl, making sure you have the appropr
 The next major update will include better astrometry data, relativistic effects, and much more.
 
 Screenshots:
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/a7.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/b1.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/c4.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/d1.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/e1.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/f1.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/g1.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/h1.png "")
-
-Ten seconds of the moon's motion:
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/c1.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/c2.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/Mercury.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/Venus.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/EarthFromMoon.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/MoonFromEarth.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/LowEarthOrbit.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/Mars.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/Jupiter.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/Saturn.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/Uranus.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/Neptune.png "")
 ![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/c3.png "")
 
-Approaching Earth's orbit:
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/1.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/2.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/3.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/4.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/5.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/6.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/7.png "")
-
 Scale comparison of the outer and inner solar systems. Note the distances in units of light-time:
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/i1.png "")
-![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/i2.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/SolarSystem1.png "")
+![Alt text](https://github.com/johncorn271828/X_Orrery/blob/master/screenshots/SolarSystem2.png "")
