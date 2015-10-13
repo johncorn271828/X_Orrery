@@ -11,7 +11,7 @@ to better explain what some of this code does without lots more research (to be 
   ((hud-text :accessor hud-text :initform "hello")
    (draw-list :accessor draw-list)
    (textures :accessor textures)
-   (fov :accessor fov :initform 0.9) ;0.6109)  ;;field of view angle in radians
+   (fov :accessor fov :initform 0.9);0.6109)  ;;field of view angle in radians
    (music-daemon :accessor music-daemon))
   (:default-initargs
    :game-mode 't 

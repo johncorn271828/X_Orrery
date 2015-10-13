@@ -65,7 +65,7 @@ This is the top-level file for the state logic, ie non-IO code.
 		       (make-instance 'planet
 				      :name "Earth"
 				      :mass earth-mass
-				      :x (vector 0 0.10 0 0)
+				      :x (vector 0 1.3 0 0)
 				      :xdot (vector 0 earth-orbit-speed 0 0)
 				      :roll (vector 0 -1 0 0)
 				      :pitch (vector 0 0 1 0)
@@ -143,8 +143,8 @@ This is the top-level file for the state logic, ie non-IO code.
 		       (make-instance 'moon 
 				      :name "Moon"
 				      :mass moon-mass
-				      :x (vector 0  0.10 (- moon-orbital-radius) 0)
-				      :xdot (vector 0 (+ earth-orbit-speed moon-orbit-speed) 0 0)
+				      :x (vector 0   (- 1.3 moon-orbital-radius) 0.007 0)
+				      :xdot (vector 0  earth-orbit-speed (- moon-orbit-speed) 0 0)
 				      :omega earth-angular-velocity
 				      :size moon-radius
 				      )
@@ -152,7 +152,7 @@ This is the top-level file for the state logic, ie non-IO code.
 		       (make-instance 'laboratory
 				      :name "Low Earth Orbiter"
 				      :mass 0 
-				      :x (vector 0 0.10 (- low-earth-orbital-radius) 0)
+				      :x (vector 0 1.3 (- low-earth-orbital-radius) 0)
 				      :xdot (vector 0 earth-orbit-speed 0 low-earth-orbit-speed)
 				      :omega earth-angular-velocity
 				      :size (* 1000000 meter)  ;not sure why this has to be so big?

@@ -202,20 +202,29 @@ for each renderable (or something like that).
 
       
       (gl:material :front-and-back :emission #(0.2 0.2 0.2 1))
+      ;;(gl:material :front-and-back :emission #(1 1 1 1))
     (gl:material :front :ambient #(1 1 1 1))
     (gl:material :front :diffuse #(1 1 1 1))
     (gl:material :front :shininess 128)
 
     ;;a little crosshair to show direction
     (gl:with-primitives :lines
-      (gl:vertex 1 -0.005 0)
-      (gl:vertex 1 0.005 0))
+      (gl:vertex 1 -0.01 0)
+      (gl:vertex 1 0.01 0))
+    (gl:with-primitives :lines
+      (gl:vertex 1 0 -0.01)
+      (gl:vertex 1 0 0.01))
 
     ;;load a wireframe
-    (gl:translate 1.6 0 -5.2) ;-4.1)
-    (gl:rotate 90 0 0 1)
-    (gl:rotate 90 1 0 0)
-    (gl:call-list (+ 11 (draw-list *view*)))
+    (if (not (eq 0 (v (player *model*))))
+      (progn
+	(gl:translate 1.6 0 -5.2) ;-4.1)
+	(gl:rotate 90 0 0 1)
+	(gl:rotate 90 1 0 0)
+	;;(gl:call-list (+ 11 (draw-list *view*)))
+	))
+    
+    
     )
   (gl:enable :depth-test)
   )

@@ -13,16 +13,21 @@ For drawing a heads-up display.
 (defgeneric draw-hud (w))
 (defmethod draw-hud ((w X_Orrery-gui))
   
-  ;;speedometer relative to earth
-  (princ-to-screen "v = " 10 10)
-  (princ-to-screen (v (player *model*)) 50 10)
+  ;;v=0 with shift+rolldown = picture mode
+  (if (not (eq 0 (v (player *model*))))
+    (progn
   
-  ;;put labels on objects
-  (loop for object in (objects *model*) do
-       (let* ((screen-coords (multiple-value-list (glu:project (aref (x object) 1)
-							       (aref (x object) 2)
-							       (aref (x object) 3))))
-	      (distance  (sqrt (+ (expt (aref (x object) 1) 2)
+      ;;speedometer relative to sun
+  
+      (princ-to-screen "v = " 10 10)
+      (princ-to-screen (v (player *model*)) 50 10)
+  
+      ;;put labels on objects
+    (loop for object in (objects *model*) do
+	(let* ((screen-coords (multiple-value-list (glu:project (aref (x object) 1)
+								(aref (x object) 2)
+								(aref (x object) 3))))
+		(distance  (sqrt (+ (expt (aref (x object) 1) 2)
 				  (expt (aref (x object) 2) 2)
 				  (expt (aref (x object) 3) 2))))
 	      (screenx (round (first screen-coords)))
@@ -78,6 +83,6 @@ For drawing a heads-up display.
 					   (+ drawx 9)
 					   (- drawy 16)))
 			 (t
-			  nil)))))))
+			  nil)))))))))
 
   ) ;end draw hud method

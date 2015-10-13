@@ -5,7 +5,7 @@ Using GL's display lists allows better performance.
 (defgeneric populate-display-lists (w))
 (defmethod populate-display-lists ((w X_Orrery-gui))
 
-  (let ((sphere-ring-count 40))
+  (let ((sphere-ring-count 100))
     
     ;;generate display lists.
     ;;currently starfield sun, 8 planets, 2 satellites, player

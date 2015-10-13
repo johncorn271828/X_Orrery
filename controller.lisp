@@ -27,6 +27,7 @@ these variables should be part of the model object.
       ;;(bordeaux-threads:destroy-thread music-daemon) ;not sure if this is necessary
       (glut:destroy-current-window)))
   ;;(when (eq key #\f)  (play-wav "fart.wav" 0 -1 0))
+  (when (eq key #\p) (sb-ext:run-program "/usr/bin/scrot" nil))
   (unless (assoc key (key-down-time-table *controller*))
     (push (cons key (get-internal-real-time)) (key-down-time-table *controller*))))
 
