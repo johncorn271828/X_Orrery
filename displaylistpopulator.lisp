@@ -194,7 +194,7 @@ Using GL's display lists allows better performance.
 
     ;;player 11
     (gl:with-new-list ((+ 11 (draw-list w)) :compile)
-      (let ((iss-mesh (read-mesh-from-obj-file "player.obj" 1))
+      (let ((iss-mesh (read-mesh-from-obj-file "meshes/player.obj" 1))
 	    (normal-index))
 	(loop for face in (faces iss-mesh) do
 	     (gl:with-primitives :line-loop
@@ -212,7 +212,7 @@ Using GL's display lists allows better performance.
     
     ;;laboratory 12
     (gl:with-new-list ((+ 12 (draw-list w)) :compile)
-      (let ((iss-mesh (read-mesh-from-obj-file "antenna.obj" (* 10000 meter)))
+      (let ((iss-mesh (read-mesh-from-obj-file "meshes/antenna.obj" (* 10000 meter)))
 	    (normal-index))
 	(loop for face in (faces iss-mesh) do
 	     (if (= (length (vertex-indices face)) 4)
