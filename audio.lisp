@@ -55,7 +55,8 @@ This file contains code to spawn threads for audio events, including music. Not 
 (defun run-music-daemon ()
   (sleep 10)
   (loop while t do
-       (loop for song in (list "May18.1.1.wav" "May23.5.1.wav") do
+       (loop for song in (shuffle (list "audio/venus.wav" "audio/jupiter.wav" "audio/mercury.wav")) do
+	    (debugvar "playing :" song)
 	    (wav-thread song))))
 	    
 

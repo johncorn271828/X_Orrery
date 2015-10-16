@@ -45,12 +45,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 (ql:quickload "cl-opengl")
 (ql:quickload "cl-glu")
 (ql:quickload "cl-glut")
-;;Audio via openal. Not tested on windows, so commented out for now.
-#|
+;;Audio via openal..
 (ql:quickload "cl-openal")
 (ql:quickload "cl-alc")
 (ql:quickload "cl-alut")
-|#
+
 
 ;;globals for IO requiring statefulness. 
 (defparameter *model* nil)
@@ -92,11 +91,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   (princln "done.")
     
   ;;Music
-  #|
   (princ "Starting music daemon... ")
   (setf (music-daemon *view*) (bordeaux-threads:make-thread (lambda () (run-music-daemon))))
   (princln "done.")
-  |#
+  
   
   ;;Main loop is in the glut window methods. Ugly but fixed in upcoming Haskell version.
   (princln "Attempting to display window...")

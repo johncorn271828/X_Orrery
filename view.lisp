@@ -4,7 +4,7 @@ to better explain what some of this code does without lots more research (to be 
 |#
 
 ;;;Audio commented out until cross-platform testing.
-;;(load "audio.lisp")
+(load "audio.lisp")
 
 ;;;This is the gui class and the display method acts as the main "read-eval-print" loop
 (defclass X_Orrery-gui (glut:window)

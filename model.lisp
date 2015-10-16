@@ -194,7 +194,7 @@ This is the top-level file for the state logic, ie non-IO code.
 		 :player (copy-instance (player old-state)
 					;;update phi and theta, shifting them back to their usual domains if needed
 					:phi (let* ((old-phi (phi (player old-state)))
-						    (dphi 0.015)  ;mouse sensitivity
+						    (dphi 0.007)  ;mouse sensitivity
 						    (delta-phi (* -1 (mouse-deltax controller) dphi)))
 					       (cond ((> (+ old-phi delta-phi) (* 2 pi) )
 						      (- (+ old-phi delta-phi) (* 2 pi)))
@@ -203,7 +203,7 @@ This is the top-level file for the state logic, ie non-IO code.
 						     (t
 						      (+ old-phi delta-phi))))
 					:theta (let* ((old-theta (theta (player old-state)))
-						      (dtheta 0.015)  ;mouse sensitivity
+						      (dtheta 0.007)  ;mouse sensitivity
 						      (delta-theta (* (mouse-deltay controller) dtheta)))
 						 (cond ((> (+ old-theta delta-theta) pi)
 							pi)
