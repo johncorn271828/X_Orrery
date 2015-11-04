@@ -1,25 +1,21 @@
 #|
 This is the main file for the X_Orrery prototype, a solar system simulator
-and planetarium application intended as an eventual basis for a 3D game 
-engine.
+and planetarium application. This is basically my playground from teaching 
+myself OpenGL. 
 
-I have attempted to design this with the most canonical possible MVC
-architecture, with updates to the model following a pure functional
-programming paradigm with occasional imperative indulgences like 
-loops (but side-effect free). After reading input, the state is updated
-with a newly-allocated state object at each iteration.
+I have attempted to design this with the most vanilla possible main loop, and
+being purely functional when the libraries let me. Also, not being too clever.
+It's a little bit cowboy code, but I'm happy to respond to inquiries about how
+I was thinking.
 
-I must apologize for the erratic coding style and sparse documentation,
-I have decided to port to Haskell. Stay Tuned!
+To run this, you need sbcl, freeglut (freeglut3-dev in debian), and 
+freealut (libalut-dev in debian). I use "sbcl --load". This will look for a
+quicklisp installation, and install quicklisp to the working directory 
+otherwise.
 
-To compile this, you need sbcl and a freeglut dll. If you uncomment the
-audio support, you'll need freealut too.
+The next version is on the way and will have much better everything :)
 
-Compile with $ sbcl --load X_Orrery.lisp.Everything should work with 
-other Common Lisp implementations, except for the sbcl-specific command 
-to output an executable at the end of this file.
-
-By John Corn September 2015
+By John Corn
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -36,7 +32,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;;;Load other people's code using quicklisp: https://www.quicklisp.org/beta/
 (load "quicklisp.lisp")
-(load "~/quicklisp/setup.lisp")
+(unless (probe-file "~/quicklisp/setup.lisp")
+  (quicklisp-quickstart:install))
+(load "~/quicklisp/setup.lisp") 
 ;;Common Common Lisp utilities
 (ql:quickload "split-sequence")
 (ql:quickload "parse-number")
@@ -51,7 +49,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 (ql:quickload "cl-alut")
 
 
-;;globals for IO requiring statefulness. 
+;;globals for library-imposed use of observer pattern. Maybe this could be 
+;;rewired with FRP?
 (defparameter *model* nil)
 (defparameter *view* nil)
 (defparameter *controller* nil)
